@@ -11,18 +11,19 @@ It's a script written in AHK which prepares[1] the config files located in ``con
 1. Download latest OBS-Studio release from [here](https://github.com/jp9000/obs-studio/releases), choose the zip-archive instead of the installer
 2. Extract the zip-archive
 3. Create an empty file called ``portable_mode.txt``
-4. Create a folder called ``sources``
+4. Create a folder called ``sources`` and ``config``
 5. Download ``OBS.exe`` (or compile ``OBS.ahk``)
 6. Your directory structure should look like this:  
-
 ```
-Portable-OBS-Studio (root folder)
-|- bin
-|- data
-|- obs-plugins
-|- sources
-|- OBS.exe
-|- portable_mode.txt
+   Portable-OBS-Studio (root folder)
+   |- bin
+   |- (config)
+   |- data
+   |- obs-plugins
+   |- sources
+   |- OBS.exe
+   |- portable_mode.txt
 ```
-7. Put all your sources into the *sources*-folder in order to let the script replace the absolute paths to relative ones
-8. Go ahead and start ``OBS.exe``
+- Put all your sources into the ``sources``-folder in order to let the script replace the absolute paths with relative ones
+- If you already have a profile you can copy all contents from ``%AppData%\obs-studio`` to the ``config``-folder
+- Go ahead and start ``OBS.exe``
