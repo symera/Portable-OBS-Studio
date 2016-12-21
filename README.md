@@ -17,7 +17,7 @@ It's a script written in AHK which prepares[1] the config files located in ``con
 ```
    Portable-OBS-Studio (root folder)
    |- bin
-   |- (config)
+   |- config
    |- data
    |- obs-plugins
    |- sources
