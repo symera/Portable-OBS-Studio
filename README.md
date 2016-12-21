@@ -12,7 +12,7 @@ It's a script written in AHK which prepares[1] the config files located in ``con
 2. Extract the zip-archive
 3. Create an empty file called ``portable_mode.txt``
 4. Create a folder called ``sources`` and ``config``
-5. Download [``OBS.exe``](https://github.com/symera/Portable-OBS-Studio/blob/master/OBS.exe) (or compile [``OBS.ahk``](https://github.com/symera/Portable-OBS-Studio/blob/master/OBS.ahk))
+5. Download [``OBS.exe``](https://github.com/symera/Portable-OBS-Studio/raw/master/OBS.exe) (or compile [``OBS.ahk``](https://github.com/symera/Portable-OBS-Studio/blob/master/OBS.ahk))
 6. Your directory structure should look like this:  
 ```
    Portable-OBS-Studio (root folder)
